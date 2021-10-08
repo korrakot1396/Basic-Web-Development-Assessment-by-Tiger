@@ -1,0 +1,27 @@
+{
+    "product": [
+        {
+            "name": "iphone 10",
+            "brand": "apple",
+            "description": "The iPhone X received positive reviews. Its display and build quality were universally praised, and the camera also scored positively on tests. However, the sensor housing.",
+            "price": "1000"
+
+        }, {
+            "name": "iphone 11",
+            "brand": "apple",
+            "description": "The iPhone 11 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+            "price": "2000"
+        }, {
+            "name": "iphone 12",
+            "brand": "apple",
+            "description": "The iPhone 12 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape.",
+            "price": "3000"
+        }, {
+            "name": "iphone 13",
+            "brand": "apple",
+            "description": "The iPhone 13 Pro is a solid upgrade on last year’s model with a faster and slicker screen, a better camera with 3x optical zoom, longer battery life and a small price cut.",
+            "price": "4000"
+        }
+    ]
+
+}
