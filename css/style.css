@@ -755,7 +755,7 @@ a {
 	  }
 
 	  .right-arrow {
-		background-color: #FF9100;
+		background-color: #D2691E;
 		position: absolute;
 		display: flex;
 		justify-content: center;
@@ -1109,3 +1109,76 @@ a {
 		margin-left: -10%;
 	}
 }
+
+/* responsive mobile max-width:396px */
+@media screen and (max-width:250px) {
+	
+	.chevron {
+		position: absolute;
+		width: 0.5rem;
+		height: 0.5rem;
+		border: solid rgba(255, 255, 255, 0.5);
+		border-width: 2.5px 2.5px 0 0;
+	  }
+
+	  .left-arrow {
+		background-color: #D2691E;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 1rem;
+		width: 1rem;
+		left:12%;
+		top: 38%;
+		margin-left:-30px;
+		margin-top: -30px;
+		cursor: pointer;
+	  }
+	  
+	  .left-arrow:hover {
+		background: #FFB900;
+	  }
+
+	  .right-arrow {
+		background-color: #D2691E;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		top: 0;
+		right: 0;
+		left:106%;
+		top: 38%;
+		margin-left:-30px;
+		margin-top: -30px;
+		height: 1rem;
+		width: 1rem;
+		cursor: pointer;
+	  }
+	  
+	  .right-arrow:hover {
+		background: #FFB900;
+	  }
+
+	  .text-container p:nth-child(1) {
+		font-size: 0.6rem;
+		color: #c8c8c8;
+	  }
+
+	  .text-container p:nth-child(2) {
+		font-size: 0.5rem;
+		color: #c8c8c8;
+	  }
+
+	  .text-container p:nth-child(3) {
+		font-size: 0.2rem;
+		color: #c8c8c8;
+		margin-left: -2%;
+	  }
+
+	  .btn-carousel{
+		  font-size: 0.25rem;
+		  margin-left: 1%;
+	  }
+  }
