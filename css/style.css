@@ -529,7 +529,7 @@ a {
   }
   
   .left-arrow {
-	background-color: #FF9100;
+	background-color: #D2691E;
 	position: absolute;
 	display: flex;
 	justify-content: center;
@@ -553,7 +553,7 @@ a {
   }
   
   .right-arrow {
-	background-color: #FF9100;
+	background-color: #D2691E;
 	position: absolute;
 	display: flex;
 	justify-content: center;
@@ -663,7 +663,7 @@ a {
 	  }
 
 	  .right-arrow {
-		background-color: #FF9100;
+		background-color: #D2691E;
 		position: absolute;
 		display: flex;
 		justify-content: center;
@@ -734,7 +734,7 @@ a {
 	  }
 
 	  .left-arrow {
-		background-color: #FF9100;
+		background-color: #D2691E;
 		position: absolute;
 		display: flex;
 		justify-content: center;
