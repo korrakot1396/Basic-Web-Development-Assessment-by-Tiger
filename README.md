@@ -22,5 +22,5 @@
 6. Without framework, bootstrap or other
 
  ## Responsive Design
- 1. Moto G4 - [x]
- 2. Galaxy S5 - [x]
+ - [x]  Moto G4
+ - [x]  Galaxy S5
