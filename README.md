@@ -22,17 +22,17 @@
 6. Without framework, bootstrap or other
 
  ## Responsive Design
- - :heavy_check_mark:  Moto G4
- - [x]  Galaxy S5
- - [x]  Pixel 2
- - [x]  Pixel 2 XL
- - [x]  Iphone 5/SE
- - [x]  Iphone 6/7/8
- - [x]  Iphone 6/7/8 Plus
- - [x]  IphoneX
- - [x]  IPad
- - [x]  IPad Pro
- - [x]  Surface Duo
- - [x]  Galaxy Fold
- - [x]  Nest Hub
- - [x]  Nest Hub Max
+ :heavy_check_mark:  Moto G4
+ :heavy_check_mark:  Galaxy S5
+ :heavy_check_mark:  Pixel 2
+ :heavy_check_mark:  Pixel 2 XL
+ :heavy_check_mark:  Iphone 5/SE
+ :heavy_check_mark:  Iphone 6/7/8
+ :heavy_check_mark:  Iphone 6/7/8 Plus
+ :heavy_check_mark:  IphoneX
+ :heavy_check_mark:  IPad
+ :heavy_check_mark:  IPad Pro
+ :heavy_check_mark:  Surface Duo
+ :heavy_check_mark:  Galaxy Fold
+ :heavy_check_mark:  Nest Hub
+ :heavy_check_mark: Nest Hub Max
