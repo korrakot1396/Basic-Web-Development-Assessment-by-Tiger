@@ -33,6 +33,6 @@
  :heavy_check_mark:  IPad <br/>
  :heavy_check_mark:  IPad Pro <br/>
  :heavy_check_mark:  Surface Duo <br/>
- :heavy_check_mark:  Galaxy Fold
- :heavy_check_mark:  Nest Hub
- :heavy_check_mark: Nest Hub Max
+ :heavy_check_mark:  Galaxy Fold <br/>
+ :heavy_check_mark:  Nest Hub <br/>
+ :heavy_check_mark: Nest Hub Max 
