@@ -23,16 +23,16 @@
 
  ## Responsive Design
  :heavy_check_mark:  Moto G4 <br/>
- :heavy_check_mark:  Galaxy S5
- :heavy_check_mark:  Pixel 2
- :heavy_check_mark:  Pixel 2 XL
- :heavy_check_mark:  Iphone 5/SE
- :heavy_check_mark:  Iphone 6/7/8
- :heavy_check_mark:  Iphone 6/7/8 Plus
- :heavy_check_mark:  IphoneX
- :heavy_check_mark:  IPad
- :heavy_check_mark:  IPad Pro
- :heavy_check_mark:  Surface Duo
+ :heavy_check_mark:  Galaxy S5 <br/>
+ :heavy_check_mark:  Pixel 2 <br/>
+ :heavy_check_mark:  Pixel 2 XL <br/>
+ :heavy_check_mark:  Iphone 5/SE <br/>
+ :heavy_check_mark:  Iphone 6/7/8 <br/>
+ :heavy_check_mark:  Iphone 6/7/8 Plus <br/>
+ :heavy_check_mark:  IphoneX <br/>
+ :heavy_check_mark:  IPad <br/>
+ :heavy_check_mark:  IPad Pro <br/>
+ :heavy_check_mark:  Surface Duo <br/>
  :heavy_check_mark:  Galaxy Fold
  :heavy_check_mark:  Nest Hub
  :heavy_check_mark: Nest Hub Max
