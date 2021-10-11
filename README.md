@@ -23,4 +23,4 @@
 
  ## Responsive Design
  - [x]  Moto G4
- - []  Galaxy S5
+ - [ ]  Galaxy S5
