@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
-		<link rel="icon" type="image/x-icon" href="img/products/" />
+		<link rel="icon" type="image/x-icon" href="img/logos/cart.png" />
         <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -26,159 +26,98 @@
             </h1>
             <ul>
                 <li>
-                    <button href="#cart" id="open-cart" onclick="openModal-cart"><img src="img/logos/cart.png" alt="logo" width="40" height="40"></button>
+                    <button href="#cart"  class=""nav trigger navright" id="myBtn"><img src="img/logos/cart.png" alt="logo" width="40" height="40"></button>
                 </li>
             </ul>
         </nav>
 
-        <section>
-            <div id="containerSlider">
-                <div id="slidingImage">
-                    <img src="img/img.png" alt="image1">
+    </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+ 
+        <div class="document-center">
+            <!--This carousel-container only exists so we can do the 
+            aspect ratio tricks in CSS-->
+            <div class="carousel-container">
+              <div class="carousel" id="carousel-1" auto-scroll="7000">
+                <!--The uppermost screen will appear first. This is due to JavaScript-->
+                <section class="carousel-screen">
+                  <img src="img/carousel/bg.png" alt="Chicago Band" />
+                  <section class="text-container">
+                    <p>Present your</p>
+                    <p>&nbsp; &nbsp;&nbsp; &nbsp;awesome product</p>
+                  </section>
+                  <section class="image-container">
+                    <img id="image-carousel" src="img/items/apple-watch.png" alt="New York" />
+                  </section>
+                </section>
+                <section class="carousel-screen">
+                  <img src="img/carousel/bg.png" alt="New York" />
+                  <section class="text-container">
+                    <p>Present your</p>
+                    <p>&nbsp; &nbsp;&nbsp; &nbsp;awesome product</p>
+                  </section>
+                  <section class="image-container">
+                    <img id="image-carousel" src="img/items/iphone-13-1.png" alt="New York" />
+                  </section>
+                </section>
+                <section class="carousel-screen">
+                  <img src="img/carousel/bg.png" alt="Los Angeles" />
+                  <section class="text-container">
+                    <p>Present your</p>
+                    <p>&nbsp; &nbsp;&nbsp; &nbsp;awesome product</p>
+                  </section>
+                  <section class="image-container">
+                    <img id="image-carousel" src="img/items/iphone-13.png" alt="New York" />
+                  </section>
+                </section>
+                <!--These are not screens. They will always be on carousel-->
+                <section class="circle-container">
+                  <!--These 'circles' need to match the number of carousel screens-->
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                </section>
+                <div class="left-arrow">
+                  <span class="chevron left"></span>
                 </div>
+                <div class="right-arrow">
+                  <span class="chevron right"></span>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+
+
 
     </br>
 </br>
 
-<div class="row">
-
-    <div class="card">
-        <div class="card-header">
-            <img
-				id="img-product-one"
-                class="img-card"
-                src="img/products/iphone11.png"
-                width="100%"
-                height="100%">
-        </div>
-        <div id="card" class="card-body">
-            <p id="title-body-card-one">&nbsp;&nbsp;
-               </p>
-            <div class="style=display: flex;">
-                <p id="price-product-card-one"></p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<button id="open1" onclick="openModal1" class="button">Order</button>
-            </div>
-
-        </div>
+<div class="divProdContainer">
+    <div class="flexprodContainer" id="list">
+        <!-- List of Products -->
+    </div>
     </div>
 
-    <div class="card">
-        <div class="card-header">
-            <img
-                class="img-card"
-                src="img/products/iphone11.png"
-                width="100%"
-                height="100%">
-        </div>
-        <div class="card-body">
-            <p id="title-body-card-two">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
-            <div class="style=display: flex;">
-                <p  id="price-product-card-two"></p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<button id="open2" onclick="openModal2" class="button">Order</button>
-            </div>
+</br>
 
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <img
-                class="img-card"
-                src="img/products/iphone11.png"
-                width="100%"
-                height="100%">
-        </div>
-        <div class="card-body">
-            <p  id="title-body-card-three">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
-            <div class="style=display: flex;">
-                <p id="price-product-card-three"></p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<button id="open3" onclick="openModal3" class="button">Order</button>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <img
-                class="img-card"
-                src="img/products/iphone11.png"
-                width="100%"
-                height="100%">
-        </div>
-        <div class="card-body">
-            <p  id="title-body-card-four">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
-            <div class="style=display: flex;">
-                <p id="price-product-card-four"></p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<button id="open4" onclick="openModal4" class="button">Order</button>
-            </div>
-
-        </div>
-    </div>
-</div>
 <p id="copy-right">&nbsp; &nbsp; &nbsp; &nbsp; &copy; Copyright 2019 FED Basic Assessment.</p>
 
-<!-- Modal one -->
-  </div>
-  <div class="modal" id="modal1">
-	<div class="header">
-	  <a href="#" class="cancel">X</a>
-	</div>
-	<div id="description-one" class="content">
-        <h3>Description of product 1</h3>
-	</div>
-	<div class="footer">
-	  <button id="btn-cancel" class="cancel">close</button>
-	  <button id="login" class="button">add</button>
-	</div>
-  </div>
-<!-- End Modal one -->
-
-<!-- Modal two -->
-</div>
-<div class="modal" id="modal2">
-  <div class="header">
-	<a href="#" class="cancel">X</a>
-  </div>
-  <div id="description-two" class="content">
-    <h3>Description of product 2</h3>
-  </div>
-  <div class="footer">
-	<button id="btn-cancel" class="cancel">close</button>
-	<button class="button">add</button>
+<!-- MODAL -->
+<div id="myModal" class="modal">
+    <div class="modalContent">
+      <span class="close">&times;</span>
+          <p><h3>My Cart</h3>
+              <div class="cart-items"></div>
+             
+          </p>
   </div>
 </div>
-<!-- End Modal two -->
-
-<!-- Modal three -->
-</div>
-<div class="modal" id="modal3">
-  <div class="header">
-	<a href="#" class="cancel">X</a>
-  </div>
-  <div id="description-three" class="content">
-    <h3>Description of product 3</h3>
-  </div>
-  <div class="footer">
-	<button id="btn-cancel" class="cancel">close</button>
-	<button class="button">add</button>
-  </div>
-</div>
-<!-- End Modal three -->
-
-<!-- Modal four -->
-</div>
-<div class="modal" id="modal4">
-  <div class="header">
-	<a href="#" class="cancel">X</a>
-  </div>
-  <div id="description-four" class="content">
-  <h3>Description of product 4</h3>
-  </div>
-  <div class="footer">
-	<button id="btn-cancel" class="cancel">close</button>
-	<button class="button">add</button>
-  </div>
-</div>
-<!-- End Modal four -->
+<!-- END MODAL -->
   
 
 <!-- Modal cart -->
@@ -197,207 +136,18 @@
 </div>
 <!-- End Modal cart -->
 
+
+
 <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="js/carousel.js"></script>
 <script src="js/cart.js"></script>
-<script>
-    fetch("products.json")
-        .then((response) => {
-            if (response.ok) {
-                return response.json();
-            } else {
-                throw new Error("NETWORK RESPONSE ERROR");
-            }
-        })
-        .then(data => {
-            console.log(data);
-            displaynameProductone(data)
-			displaypriceProductone(data)
-			displaydescriptionProductone(data)
-			displaynameProducttwo(data)
-			displaypriceProducttwo(data)
-			displaydescriptionProducttwo(data)
-			displaynameProductthree(data)
-			displaypriceProductthree(data)
-			displaydescriptionProductthree(data)
-			displaynameProductfour(data)
-			displaypriceProductfour(data)
-			displaydescriptionProductfour(data)
-			
-        })
-        .catch((error) => console.error("FETCH ERROR:", error));
-
-    function displaynameProductone(data) {
-		var mainContainer = document.getElementById("title-body-card-one");
-            for (var i = 0; i <= 0; i++) {
-                var nameProduct = document.createElement("p");
-				nameProduct.innerHTML = data.product[i].name;
-                mainContainer.appendChild(nameProduct);
-            }
-    }
-
-	
-    function displaypriceProductone(data) {
-		var mainContainer = document.getElementById("price-product-card-one");
-            for (var i = 0; i <= 0; i++) {
-                var priceProduct = document.createElement("p");
-				priceProduct.innerHTML = "$" + data.product[i].price;
-                mainContainer.appendChild(priceProduct);
-            }
-    }
-
-	function displaydescriptionProductone(data) {
-		var mainContainer = document.getElementById("description-one");
-            for (var i = 0; i <= 0; i++) {
-                var descriptionProduct = document.createElement("p");
-				descriptionProduct.innerHTML = data.product[i].description;
-                mainContainer.appendChild(descriptionProduct);
-            }
-    }
-
-	function displaynameProducttwo(data) {
-		var mainContainer = document.getElementById("title-body-card-two");
-            for (var i = 1; i <= 1; i++) {
-                var nameProduct = document.createElement("p");
-				nameProduct.innerHTML = data.product[i].name;
-                mainContainer.appendChild(nameProduct);
-            }
-    }
-
-	function displaypriceProducttwo(data) {
-		var mainContainer = document.getElementById("price-product-card-two");
-            for (var i = 1; i <= 1; i++) {
-                var priceProduct = document.createElement("p");
-				priceProduct.innerHTML = "$" + data.product[i].price;
-                mainContainer.appendChild(priceProduct);
-            }
-    }
-
-	function displaydescriptionProducttwo(data) {
-		var mainContainer = document.getElementById("description-two");
-            for (var i = 1; i <= 1; i++) {
-                var descriptionProduct = document.createElement("p");
-				descriptionProduct.innerHTML = data.product[i].description;
-                mainContainer.appendChild(descriptionProduct);
-            }
-    }
-
-
-	
-	function displaynameProductthree(data) {
-		var mainContainer = document.getElementById("title-body-card-three");
-            for (var i = 2; i <= 2; i++) {
-                var nameProduct = document.createElement("p");
-				nameProduct.innerHTML = data.product[i].name;
-                mainContainer.appendChild(nameProduct);
-            }
-    }
-
-	function displaypriceProductthree(data) {
-		var mainContainer = document.getElementById("price-product-card-three");
-            for (var i = 2; i <= 2; i++) {
-                var priceProduct = document.createElement("p");
-				priceProduct.innerHTML = "$" + data.product[i].price;
-                mainContainer.appendChild(priceProduct);
-            }
-    }
-
-	function displaydescriptionProductthree(data) {
-		var mainContainer = document.getElementById("description-three");
-            for (var i = 2; i <= 2; i++) {
-                var descriptionProduct = document.createElement("p");
-				descriptionProduct.innerHTML = data.product[i].description;
-                mainContainer.appendChild(descriptionProduct);
-            }
-    }
 
 
 
-	function displaynameProductfour(data) {
-		var mainContainer = document.getElementById("title-body-card-four");
-            for (var i = 3; i <= 3; i++) {
-                var nameProduct = document.createElement("p");
-				nameProduct.innerHTML = data.product[i].name;
-                mainContainer.appendChild(nameProduct);
-            }
-    }
-
-	function displaypriceProductfour(data) {
-		var mainContainer = document.getElementById("price-product-card-four");
-            for (var i = 3; i <= 3; i++) {
-                var priceProduct = document.createElement("p");
-				priceProduct.innerHTML = "$" + data.product[i].price;
-                mainContainer.appendChild(priceProduct);
-            }
-    }
-
-	function displaydescriptionProductfour(data) {
-		var mainContainer = document.getElementById("description-four");
-            for (var i = 2; i <= 2; i++) {
-                var descriptionProduct = document.createElement("p");
-				descriptionProduct.innerHTML = data.product[i].description;
-                mainContainer.appendChild(descriptionProduct);
-            }
-    }
-
-</script>
-<script>
-	$("#open1").click(function(){
-     $("#modal1").css("display","block");
-                 });
-
-
-$(".cancel").click(function(){
-     $("#modal1").fadeOut();
-});
-</script>
-<script>
-	$("#open2").click(function(){
-     $("#modal2").css("display","block");
-                 });
-
-
-$(".cancel").click(function(){
-     $("#modal2").fadeOut();
-});
-</script>
-<script>
-	$("#open3").click(function(){
-     $("#modal3").css("display","block");
-                 });
-
-
-$(".cancel").click(function(){
-     $("#modal3").fadeOut();
-});
-</script>
-<script>
-	$("#open4").click(function(){
-     $("#modal4").css("display","block");
-                 });
-
-
-$(".cancel").click(function(){
-     $("#modal4").fadeOut();
-});
-</script>
-<script>
-	$("#open-cart").click(function(){
-     $("#modal-cart").css("display","block");
-                 });
-
-
-$(".cancel").click(function(){
-     $("#modal-cart").fadeOut();
-});
-</script>
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdA-wWvGMg_oBA1gpn-IHvws2OM1Vpwg0&callback=initMap"
-    async="async"
-    defer="defer"></script>
 
 </body>
 </html>
