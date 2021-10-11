@@ -12,3 +12,15 @@
 4. Installation Live server for run this project
 5. Right click at file index.html and you can see open with live server
 6. Website ready!
+
+## Functionality 
+1. Add product to cart
+2. Carousel can be used
+3. Display the product using flexbox
+4. Modal can show the list of items added 
+5. Display product comming from json
+6. Without framework, bootstrap or other
+
+ ## Responsive Design
+ 1. Moto G4 - [x]
+ 2. Galaxy S5 - [x]
