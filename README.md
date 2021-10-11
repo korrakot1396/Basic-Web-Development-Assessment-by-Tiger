@@ -24,8 +24,15 @@
  ## Responsive Design
  - [x]  Moto G4
  - [x]  Galaxy S5
- - [ ]  Pixel 2
- - [ ]  Pixel 2 XL
- - [ ]  Iphone 5/SE
- - [ ]  Iphone 6/7/8
- - [ ]  Iphone 6/7/8 Plus
+ - [x]  Pixel 2
+ - [x]  Pixel 2 XL
+ - [x]  Iphone 5/SE
+ - [x]  Iphone 6/7/8
+ - [x]  Iphone 6/7/8 Plus
+ - [x]  IphoneX
+ - [x]  IPad
+ - [x]  IPad Pro
+ - [x]  Surface Duo
+ - [x]  Galaxy Fold
+ - [x]  Nest Hub
+ - [x]  Nest Hub Max
