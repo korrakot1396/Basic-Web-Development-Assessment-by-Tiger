@@ -241,6 +241,9 @@ a {
 
 
 
+
+
+
   #title-body-card {
 	color: #0078FF;
 	font-size: 1.2rem;
@@ -445,6 +448,8 @@ a {
 	  /* margin-right: 10px;
 	  margin-top: 10px; */
 	}
+
+	
   
   }
   
@@ -643,6 +648,11 @@ a {
   .text-container p:nth-child(2) {
 	font-size: 1.8rem;
   }
+
+  .text-container p:nth-child(3) {
+	font-size: 0.8rem;
+	color: #c8c8c8;
+  }
   
   .carousel-screen {
 	position: absolute;
@@ -724,8 +734,25 @@ a {
 	  .text-container p:nth-child(2) {
 		font-size: 0.8rem;
 	  }
+
+	  .text-container p:nth-child(3) {
+		font-size: 0.4rem;
+		color: #c8c8c8;
+	  }
+
+	 
+
+	
+
+
+    
+  .buttonAddToCart:hover {
+	background-color: #148CFF; 
+	  }
   }
   
+
+  /* responsive mobile max-width:396px */
   @media screen and (max-width:396px) {
 	
 	.chevron {
@@ -774,6 +801,12 @@ a {
 	  
 	  .right-arrow:hover {
 		background: #FFB900;
+	  }
+
+	  .text-container p:nth-child(3) {
+		font-size: 0.2rem;
+		color: #c8c8c8;
+		margin-left: -13%;
 	  }
   }
 
@@ -844,7 +877,7 @@ a {
 	position: fixed; 
 	z-index: 1; /*Sit on top*/
 	left: 0;
-	top: 0;
+	top: -18%;
 	width: 100%; 
 	height: 100%; 
   }
@@ -957,6 +990,7 @@ a {
 	padding: 5px 0px 3px 0px;
 }
 
+/* modal of card responsive max-width:920px */
 @media screen and (max-width:920px) {
 	/*MODAL CART MOBILE*/
 	.modal {
@@ -980,6 +1014,7 @@ a {
 	  }
 }
 
+/* modal of card responsive max-width:660px */
 @media screen and (max-width:660px) {
 	/*MODAL CART MOBILE*/
 	.modal {
@@ -1003,6 +1038,7 @@ a {
 	  }
 }
 
+/* modal of card responsive max-width:598px */
 @media screen and (max-width:598px) {
 	/*MODAL CART MOBILE*/
 	.modal {
@@ -1027,6 +1063,7 @@ a {
 	  }
 }
 
+/* modal of card responsive max-width:398px */
 @media screen and (max-width:398px) {
 	/*MODAL CART MOBILE*/
 	.modal {
@@ -1049,5 +1086,52 @@ a {
 		overflow-x: scroll;
 		border-radius: 0.5rem;
 	  }
+	  
 }
 
+/* btn of carousel */
+.btn-carousel {
+	background-color: #FF9100;
+	border: none;
+	color: white;
+	padding: 5px 15px;
+	font-size: 1rem;
+	margin: 4px 2px;
+	border-radius: 0;
+	float: left;
+	margin-left: -8%;
+}
+
+.btn-carousel:hover {
+	background-color: #FFAA28;
+}
+
+/* btn of carousel responsive max-width:620px */
+@media screen and (max-width:620px) {
+	.btn-carousel {
+		background-color: #FF9100;
+		border: none;
+		color: white;
+		padding: 5px 15px;
+		font-size: 0.5rem;
+		margin: 4px 2px;
+		border-radius: 0;
+		float: left;
+		margin-left: -4%;
+	}
+}
+
+/* btn of carousel responsive max-width:620px */
+@media screen and (max-width:300px) {
+	.btn-carousel {
+		background-color: #FF9100;
+		border: none;
+		color: white;
+		padding: 5px 15px;
+		font-size: 0.3rem;
+		margin: 4px 2px;
+		border-radius: 0;
+		float: left;
+		margin-left: -10%;
+	}
+}

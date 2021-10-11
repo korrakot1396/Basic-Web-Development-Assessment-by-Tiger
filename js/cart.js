@@ -113,7 +113,7 @@ console.log(shopItem.getElementsByClassName('prodName')[0].innerText)
 var title = shopItem.getElementsByClassName('prodName')[0].innerText
 var price = shopItem.getElementsByClassName('prodPrice')[0].innerText
 var imageSrc = shopItem.getElementsByClassName('img-card')[0].src
-//var desc = shopItem.getElementsByClassName('prodDesc')[0].innerText
+// var desc = shopItem.getElementsByClassName('prodDesc')[0].innerText
 addItemToCart(title, price, imageSrc)
 }
 
@@ -128,7 +128,6 @@ var cartRowContents = `
     <span class="cartTitleDescPrice" style="font-weight: bold;">Item Name</span><br>
     ${title}<br><br>
     </p>
-
     <p><span class="cartTitleDescPrice" style="font-weight: bold;">Price</span><br>
     ${price}<br><br>
     <button class="btnRemove buttonRadius">Remove</button></p>`
