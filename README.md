@@ -23,4 +23,9 @@
 
  ## Responsive Design
  - [x]  Moto G4
- - [ ]  Galaxy S5
+ - [x]  Galaxy S5
+ - [ ]  Pixel 2
+ - [ ]  Pixel 2 XL
+ - [ ]  Iphone 5/SE
+ - [ ]  Iphone 6/7/8
+ - [ ]  Iphone 6/7/8 Plus
