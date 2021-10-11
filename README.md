@@ -30,6 +30,8 @@
  :heavy_check_mark:  Iphone 6/7/8 <br/>
  :heavy_check_mark:  Iphone 6/7/8 Plus <br/>
  :heavy_check_mark:  IphoneX <br/>
+ :heavy_check_mark:  Iphone XR <br/>
+ :heavy_check_mark:  Iphone XS <br/>
  :heavy_check_mark:  Iphone XS Max <br/>
  :heavy_check_mark:  IPad <br/>
  :heavy_check_mark:  IPad Pro <br/>
