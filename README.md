@@ -22,7 +22,7 @@
 6. Without framework, bootstrap or other
 
  ## Responsive Design
- :heavy_check_mark:  Moto G4
+ :heavy_check_mark:  Moto G4 <br/>
  :heavy_check_mark:  Galaxy S5
  :heavy_check_mark:  Pixel 2
  :heavy_check_mark:  Pixel 2 XL
